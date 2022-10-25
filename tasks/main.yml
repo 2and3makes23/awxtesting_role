@@ -1,0 +1,4 @@
+---
+# tasks file for awxtesting_role
+- debug:
+  msg: "This is a dummy task of awxtesting_role."
