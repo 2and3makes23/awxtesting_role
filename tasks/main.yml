@@ -1,4 +1,5 @@
 ---
 # tasks file for awxtesting_role
-- debug:
-  msg: "This is a dummy task of awxtesting_role."
+- name: Print the gateway for each host when defined
+  ansible.builtin.debug:
+    msg: "This is a dummy task of awxtesting_role."
